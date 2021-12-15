@@ -1,0 +1,6 @@
+connect-flash 
+Used for displaying messages to user
+messages are stored in session and cleared after messages are displayed
+Used in combination with redirect, to ensure messages is displayed on the next rendered page
+app.use(flash()) with this middleware we can use req.flash to get array of messages
+req.flash() uses key value pair
